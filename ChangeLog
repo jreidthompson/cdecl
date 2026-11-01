@@ -1,5 +1,6 @@
 2026-11-01  Paul J. Lucas <7366785+paul-j-lucas@users.noreply.github.com>
 
+   * configure.ac: s/SYMBOL_TIDY_CFLAGS/CDECL_CFLAGS/
    * configure.ac, util.h: Added -Werror=pointer-arith, VOID_TO_CHAR_PTR.
 
 2026-10-10  Paul J. Lucas <7366785+paul-j-lucas@users.noreply.github.com>
