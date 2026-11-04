@@ -140,7 +140,7 @@ char* strbuf_puts_quoted( strbuf_t *sbuf, char quote, char const *s ) {
 
       default:
         if ( unlikely( c < 0x20 || c == 0x7F ) ) {
-          strbuf_printf( sbuf, "\\x%02x", c );
+          strbuf_printf( sbuf, "\\x%02x", STATIC_CAST( unsigned, c ) );
         }
         else {
           if ( c == quote )
