@@ -1,3 +1,7 @@
+2026-11-04  Paul J. Lucas <7366785+paul-j-lucas@users.noreply.github.com>
+
+   * strbuf.c: Added cast to silence warning.
+
 2026-11-01  Paul J. Lucas <7366785+paul-j-lucas@users.noreply.github.com>
 
    * configure.ac: s/SYMBOL_TIDY_CFLAGS/CDECL_CFLAGS/
